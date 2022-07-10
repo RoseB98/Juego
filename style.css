@@ -1,42 +1,34 @@
-#container{
-display:flex ;
-flex-direction: row;
+#button-piedra:hover{
+    cursor:pointer
+    
+
+
 }
 
+.papel:hover{
+    cursor:pointer 
 
+
+}
+
+.tijera:hover{
+    cursor:pointer 
+
+}
 #button-papel{
-<<<<<<< HEAD
-
- width: 20%;
- height:20%;
-=======
     background-image:url("img\papel.png"); 
     width: 20%;
     height:20;   
-    background-color: 	#cc33a6;
+    background-color: 	;
     padding: 15px 20px;
     border-radius: 40%;
     box-shadow: 10px 10px 8px #888888;
 
->>>>>>> 3fce41f3b7bccf7ed921b24a201e5e4f6cb874d3
 }
 
 
 #button-tijera{
-<<<<<<< HEAD
-    width: 20%;
-    height:20%;  
-}
-
-#button-piedra{ 
-    width: 20%;
-    height:20%;  
-}
-
-#button-piedra:hover{
-    cursor:pointer
-}
-=======
+    
     background-color: 	#cc33a6;
     padding: 15px 20px;
     border-radius: 40%;
@@ -49,12 +41,5 @@ flex-direction: row;
     padding: 15px 20px;
     border-radius: 40%;
     box-shadow: 10px 10px 8px #888888;
->>>>>>> 3fce41f3b7bccf7ed921b24a201e5e4f6cb874d3
 
-#papel:hover{
-    cursor:pointer 
-}
-
-#tijera:hover{
-    cursor:pointer 
 }
