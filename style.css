@@ -14,8 +14,14 @@
 .tijera:hover{
     cursor:pointer 
 
+<<<<<<< HEAD
 }
 #button-papel{
+=======
+.piedra{
+   
+
+>>>>>>> 8008bb9f98996408d40f2c84e3328f7c28d52484
     background-image:url("img\papel.png"); 
     width: 20%;
     height:20;   
@@ -27,8 +33,14 @@
 }
 
 
+<<<<<<< HEAD
 #button-tijera{
     
+=======
+.papel{
+    width: 20%;
+    height:20;   
+>>>>>>> 8008bb9f98996408d40f2c84e3328f7c28d52484
     background-color: 	#cc33a6;
     padding: 15px 20px;
     border-radius: 40%;
@@ -36,10 +48,21 @@
 
 }
 
-#button-papel{ 
+.tijera{
+    width: 20%;
+    height:20;    
     background-color: 	#3359cc;
     padding: 15px 20px;
     border-radius: 40%;
     box-shadow: 10px 10px 8px #888888;
 
+<<<<<<< HEAD
 }
+=======
+#tijera:hover{
+    cursor:pointer 
+}
+#piedra:hover{
+    cursor:pointer 
+}
+>>>>>>> 8008bb9f98996408d40f2c84e3328f7c28d52484
