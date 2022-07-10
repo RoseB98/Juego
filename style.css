@@ -1,4 +1,4 @@
-.piedra:hover{
+#button-piedra:hover{
     cursor:pointer
     
 
@@ -13,5 +13,23 @@
 
 .tijera:hover{
     cursor:pointer 
+
+}
+#button-papel{
+background-image:url("img\papel.png"); 
+ width: 20%;
+ height:20;   
+
+
+}
+
+
+#button-tijera{
+    
+
+}
+
+#button-papel{ 
+
 
 }
