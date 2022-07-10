@@ -3,15 +3,27 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Juego</title>
+    <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
 
+
+    
 </head>
-<body onload="seleccionador()">
-    <h1>hola</h1>
-    <script type="text/javascript" src='./index.js'>
+<body id="container">
+    
+    <div class name = "piedra" >
+        <input type="image" id="boton"  src="img\piedra.jpg" value="piedra"  alt="papel">
+    </div>
 
-       </script>
+    <div class name = "papel">
+        <input type="image" id="boton" src="img\papel.png" value="papel"  alt="papel">
+    </div>
+
+    <div class name = "tijera">
+        <input type="image" id="boton"  src="img\tijera.png" value="tijera"   alt="tijera">
+    </div>
+    
 </body>
-</html> 
+</html>

@@ -1,0 +1,40 @@
+#container{
+display:flex ;
+flex-direction: row;
+}
+
+
+#button-papel{
+    background-image:url("img\papel.png"); 
+    width: 20%;
+    height:20;   
+    background-color: 	#cc33a6;
+    padding: 15px 20px;
+    border-radius: 40%;
+    box-shadow: 10px 10px 8px #888888;
+
+}
+
+
+#button-tijera{
+    background-color: 	#cc33a6;
+    padding: 15px 20px;
+    border-radius: 40%;
+    box-shadow: 10px 10px 8px #888888;
+
+}
+
+#button-papel{ 
+    background-color: 	#3359cc;
+    padding: 15px 20px;
+    border-radius: 40%;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+#papel:hover{
+    cursor:pointer 
+}
+
+#tijera:hover{
+    cursor:pointer 
+}
