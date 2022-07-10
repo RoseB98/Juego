@@ -1,35 +1,34 @@
-#button-piedra:hover{
-    cursor:pointer
-    
-
-
+#container{
+display:flex ;
+flex-direction: row;
 }
 
-.papel:hover{
-    cursor:pointer 
 
-
-}
-
-.tijera:hover{
-    cursor:pointer 
-
-}
 #button-papel{
-background-image:url("img\papel.png"); 
+
  width: 20%;
- height:20;   
-
-
+ height:20%;
 }
 
 
 #button-tijera{
-    
-
+    width: 20%;
+    height:20%;  
 }
 
-#button-papel{ 
+#button-piedra{ 
+    width: 20%;
+    height:20%;  
+}
 
+#button-piedra:hover{
+    cursor:pointer
+}
 
+#papel:hover{
+    cursor:pointer 
+}
+
+#tijera:hover{
+    cursor:pointer 
 }
